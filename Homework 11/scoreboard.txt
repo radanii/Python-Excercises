@@ -1,1 +1,1 @@
-[{"player": "Patrick", "attempts": 4, "date": "2019-07-16 21:17:47.662451", "secret_number": 6}]
+[{"player": "Patrick", "attempts": 4, "date": "2019-07-16 21:17:47.662451", "secret_number": 6}, {"player": "Deniz", "attempts": 2, "date": "2019-07-16 21:34:53.013006", "secret_number": 8}, {"player": "Nima", "attempts": 2, "date": "2019-07-16 21:35:52.075521", "secret_number": 1}]

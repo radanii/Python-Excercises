@@ -5,6 +5,7 @@ import datetime
 
 secret = random.randint(1, 10)
 attempts = 0
+wrong_guesses = []
 
 print("Try to beat the following Top 3 players:")
 
@@ -15,7 +16,7 @@ with open("scoreboard.txt", "r") as scores:
         print(score_dict["player"] + " with " + str(score_dict["attempts"]) + " attempts, date: " +
               score_dict.get("date") + "(Secret = " + str(score_dict["secret_number"]) + ")")
 
-    player_name = str(input("Please type in your name!:"))
+    player_name = str(input("Please type in your player name:"))
 
 while True:
     guess = int(input("Try to guess my secret number, which is between 1 and 10!: "))
