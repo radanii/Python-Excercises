@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c9d62c-b97f-4ae7-98b5-36e695bf7327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework 12/scoreboard.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework 12/secret_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework 12/secret_number_functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework 12/secret_number_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 11/scoreboard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 11/scoreboard.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 11/secret_number_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 11/secret_number_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 12/secret_number_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 12/secret_number_game.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,50 +11,34 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework 12/secret_number.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="24" column="64" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="64" />
-              <folding>
-                <element signature="e#1#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework 12/secret_number_functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-              <folding>
-                <element signature="e#108#121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Homework 12/secret_number_game.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Homework 11/scoreboard.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="1" selection-start-column="1" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Homework 12/secret_number_game.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="18" selection-start-column="18" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Homework 12/secret_number_functions.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="442">
+                  <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -90,8 +68,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="425" />
-    <option name="width" value="948" />
+    <option name="x" value="151" />
+    <option name="width" value="1222" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -287,7 +265,7 @@
       <workItem from="1562746344697" duration="4831000" />
       <workItem from="1562860633097" duration="1729000" />
       <workItem from="1563293035916" duration="6239000" />
-      <workItem from="1563709150533" duration="4338000" />
+      <workItem from="1563709150533" duration="5003000" />
     </task>
     <task id="LOCAL-00001" summary="1)Mood checker&#10;2)Secret Number&#10;3)Calculator">
       <created>1562328421005</created>
@@ -317,22 +295,29 @@
       <option name="project" value="LOCAL" />
       <updated>1563306265674</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW 12">
+      <created>1563713556639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563713556639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25604000" />
+    <option name="totallyTimeSpent" value="26269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="425" y="0" width="948" height="735" extended-state="0" />
+    <frame x="151" y="0" width="1222" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.25675675" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19621342" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.049833886" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42524916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,10 +342,11 @@
     <MESSAGE value="1)Mood checker&#10;2)Secret Number&#10;3)Calculator" />
     <MESSAGE value="Hw 9 + new folder Hw 8" />
     <MESSAGE value="HW 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 11" />
+    <MESSAGE value="HW 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 12" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Excercises$secret_number_game.coverage" NAME="secret_number_game Coverage Results" MODIFIED="1563712159496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 12" />
+    <SUITE FILE_PATH="coverage/Python_Excercises$secret_number_game.coverage" NAME="secret_number_game Coverage Results" MODIFIED="1563713636716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 12" />
     <SUITE FILE_PATH="coverage/Python_Excercises$test.coverage" NAME="test Coverage Results" MODIFIED="1562748506945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 9" />
     <SUITE FILE_PATH="coverage/Python_Excercises$secret_number.coverage" NAME="secret_number Coverage Results" MODIFIED="1562319717736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Excercises$lower_case.coverage" NAME="lower_case Coverage Results" MODIFIED="1562750288673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 9" />
@@ -443,13 +429,6 @@
     <entry file="file://$PROJECT_DIR$/Homework 12/scoreboard.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework 11/scoreboard.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Homework 12/secret_number.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -460,20 +439,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Homework 11/scoreboard.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Homework 12/secret_number_functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="442">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <element signature="e#108#121#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework 12/secret_number_game.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
