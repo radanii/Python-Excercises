@@ -23,7 +23,8 @@ def get_full_scores():
               str(score_dict["attempts"]) + " attempts, date: " +
               score_dict.get("date") + "(Secret = " +
               str(score_dict["secret_number"]) + ")" + " Wrong guesses: " +
-              str(score_dict.get("wrong_guesses")))
+              str(score_dict.get("wrong_guesses")) + " " + "difficulty: " +
+              str(score_dict.get("mode")))
 
 
 # get the top 3 scoreboard and show in console:
@@ -35,9 +36,10 @@ def get_top3_scores():
     for score_dict in top3_list:
         print(score_dict["player"] + " with " +
               str(score_dict["attempts"]) + " attempts, date: " +
-              score_dict.get("date") + "(Secret = " +
+              score_dict.get("date") + " " + "(Secret = " +
               str(score_dict["secret_number"]) + ")" + " Wrong guesses: " +
-              str(score_dict.get("wrong_guesses")))
+              str(score_dict.get("wrong_guesses")) + " " + "difficulty: " +
+              str(score_dict.get("mode")))
 
 
 # delete scores in scoreboard.txt:
@@ -46,6 +48,7 @@ def delete_scores():
     f = open("scoreboard.txt", "w")
     f.write("[]")
     f.close()
+    print("Scores deleted!")
 
 
 if __name__ == '__main__':
