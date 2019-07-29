@@ -37,16 +37,19 @@ def play_game():
 
                         # Fill in scoreboard.txt, when game is finished:
 
-                        new_result = Result(player_name=str(player_name),
-                                            attempts=int(attempts),
-                                            date=int(strftime("%Y-%m-%d %H:%M:%S", gmtime())),
-                                            secret=int(secret),
+                        new_result = Result(player=player_name,
+                                            attempts=attempts,
+                                            date=strftime("%Y-%m-%d %H:%M:%S", gmtime()),
+                                            secret=secret,
                                             wrongs=wrong_guesses,
-                                            mode=str("Easy"))
+                                            mode="easy")
+                        scores_list = get_score_list()
+                        scores_list.append(new_result.__dict__)
 
                         with open("scoreboard.txt", "w") as scores:
-                            scores.write(json.dumps(new_result.__dict__))
+                            scores.write(json.dumps(scores_list))
                         break
+
                     elif guess < secret:
                         print("You might be close, try a bigger number.")
                     elif guess > secret:
@@ -72,16 +75,18 @@ def play_game():
                         print("Attempts:" + str(attempts))
 
                         # Fill in scoreboard.txt, when game is finished:
+                        new_result = Result(player=player_name,
+                                            attempts=attempts,
+                                            date=strftime("%Y-%m-%d %H:%M:%S", gmtime()),
+                                            secret=secret,
+                                            wrongs=wrong_guesses,
+                                            mode="hard")
                         scores_list = get_score_list()
-                        scores_list.append({"player": str(player_name),
-                                            "attempts": attempts,
-                                            "date": str(strftime("%Y-%m-%d %H:%M:%S", gmtime())),
-                                            "secret_number": secret,
-                                            "wrong_guesses": wrong_guesses,
-                                            "mode": "hard"})
+                        scores_list.append(new_result.__dict__)
 
                         with open("scoreboard.txt", "w") as scores:
                             scores.write(json.dumps(scores_list))
+
                         break
 
                     wrong_guesses.append(guess)

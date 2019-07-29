@@ -22,8 +22,8 @@ def get_full_scores():
         print(score_dict["player"] + " with " +
               str(score_dict["attempts"]) + " attempts, date: " +
               score_dict.get("date") + "(Secret = " +
-              str(score_dict["secret_number"]) + ")" + " Wrong guesses: " +
-              str(score_dict.get("wrong_guesses")) + " " + "difficulty: " +
+              str(score_dict["secret"]) + ")" + " Wrong guesses: " +
+              str(score_dict.get("wrongs")) + " " + "difficulty: " +
               str(score_dict.get("mode")))
 
 
@@ -37,8 +37,8 @@ def get_top3_scores():
         print(score_dict["player"] + " with " +
               str(score_dict["attempts"]) + " attempts, date: " +
               score_dict.get("date") + " " + "(Secret = " +
-              str(score_dict["secret_number"]) + ")" + " Wrong guesses: " +
-              str(score_dict.get("wrong_guesses")) + " " + "difficulty: " +
+              str(score_dict["secret"]) + ")" + " Wrong guesses: " +
+              str(score_dict.get("wrongs")) + " " + "difficulty: " +
               str(score_dict.get("mode")))
 
 
