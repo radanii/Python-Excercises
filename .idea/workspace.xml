@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4c9d62c-b97f-4ae7-98b5-36e695bf7327" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Homework 13/classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework 13/player.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework 13/save_player_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework 12/scoreboard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 12/scoreboard.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Homework 13/save_player_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework 13/save_player_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Homework 13/classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="340">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Homework 13/save_player_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="239">
+              <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -71,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -81,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,13 +89,17 @@
             <path>
               <item name="Python-Excercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python-Excercises" type="462c0819:PsiDirectoryNode" />
+              <item name="Homework 12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python-Excercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python-Excercises" type="462c0819:PsiDirectoryNode" />
               <item name="Homework 13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,8 +244,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.save_player_data" />
-        <item itemvalue="Python.Football&amp;Basketball" />
         <item itemvalue="Python.secret_number_game" />
+        <item itemvalue="Python.Football&amp;Basketball" />
         <item itemvalue="Python.secret_number_dict" />
         <item itemvalue="Python.joining_strings" />
       </list>
@@ -265,7 +267,8 @@
       <workItem from="1562860633097" duration="1729000" />
       <workItem from="1563293035916" duration="6239000" />
       <workItem from="1563709150533" duration="5003000" />
-      <workItem from="1564385061626" duration="3123000" />
+      <workItem from="1564385061626" duration="3139000" />
+      <workItem from="1564388248651" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="1)Mood checker&#10;2)Secret Number&#10;3)Calculator">
       <created>1562328421005</created>
@@ -302,22 +305,29 @@
       <option name="project" value="LOCAL" />
       <updated>1563713556639</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Hw13 start">
+      <created>1564388227206</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1564388227206</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29392000" />
+    <option name="totallyTimeSpent" value="30224000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="676" y="0" width="697" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19937205" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.09909228" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.42524916" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41898528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -343,17 +353,18 @@
     <MESSAGE value="Hw 9 + new folder Hw 8" />
     <MESSAGE value="HW 11" />
     <MESSAGE value="HW 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 12" />
+    <MESSAGE value="Hw13 start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hw13 start" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_Excercises$secret_number_game.coverage" NAME="secret_number_game Coverage Results" MODIFIED="1563713636716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 12" />
+    <SUITE FILE_PATH="coverage/Python_Excercises$secret_number_game.coverage" NAME="secret_number_game Coverage Results" MODIFIED="1564388794453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 12" />
     <SUITE FILE_PATH="coverage/Python_Excercises$test.coverage" NAME="test Coverage Results" MODIFIED="1562748506945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 9" />
     <SUITE FILE_PATH="coverage/Python_Excercises$secret_number.coverage" NAME="secret_number Coverage Results" MODIFIED="1562319717736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Excercises$lower_case.coverage" NAME="lower_case Coverage Results" MODIFIED="1562750288673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 9" />
     <SUITE FILE_PATH="coverage/Python_Excercises$joining_strings.coverage" NAME="joining_strings Coverage Results" MODIFIED="1563294074652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 9" />
     <SUITE FILE_PATH="coverage/Python_Excercises$secret_number_dict.coverage" NAME="secret_number_dict Coverage Results" MODIFIED="1563305758148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 11" />
     <SUITE FILE_PATH="coverage/Python_Excercises$Football_Basketball.coverage" NAME="Football&amp;Basketball Coverage Results" MODIFIED="1564385887340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 13" />
-    <SUITE FILE_PATH="coverage/Python_Excercises$save_player_data.coverage" NAME="save_player_data Coverage Results" MODIFIED="1564388176660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 13" />
+    <SUITE FILE_PATH="coverage/Python_Excercises$save_player_data.coverage" NAME="save_player_data Coverage Results" MODIFIED="1564389213239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 13" />
     <SUITE FILE_PATH="coverage/Python_Excercises$fizz_buzz.coverage" NAME="fizz_buzz Coverage Results" MODIFIED="1562749637533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Homework 9" />
     <SUITE FILE_PATH="coverage/Python_Excercises$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1562747286155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Excercises$mood_checker.coverage" NAME="mood_checker Coverage Results" MODIFIED="1562318654591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -444,23 +455,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="e#44#90#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Homework 13/player.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework 13/classes.py">
+    <entry file="file://$PROJECT_DIR$/Homework 13/save_player_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="239">
+          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Homework 13/save_player_data.py">
+    <entry file="file://$PROJECT_DIR$/Homework 13/classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="340">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
