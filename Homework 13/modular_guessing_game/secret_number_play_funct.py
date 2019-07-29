@@ -43,11 +43,9 @@ def play_game():
                                             secret=secret,
                                             wrongs=wrong_guesses,
                                             mode="easy")
-                        scores_list = get_score_list()
-                        scores_list.append(new_result.__dict__)
 
-                        with open("scoreboard.txt", "w") as scores:
-                            scores.write(json.dumps(scores_list))
+                        new_result.save_into_score_list()
+
                         break
 
                     elif guess < secret:
@@ -81,11 +79,8 @@ def play_game():
                                             secret=secret,
                                             wrongs=wrong_guesses,
                                             mode="hard")
-                        scores_list = get_score_list()
-                        scores_list.append(new_result.__dict__)
 
-                        with open("scoreboard.txt", "w") as scores:
-                            scores.write(json.dumps(scores_list))
+                        new_result.save_into_score_list()
 
                         break
 
