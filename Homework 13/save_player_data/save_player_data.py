@@ -7,9 +7,11 @@ if __name__ == '__main__':
     print("Lets save some player details in a txt!")
 
     while True:
-        choice = str.upper(input("\n" + "Enter" + "\n" +"A) to create a football-player and B to create a basketball-player," +
-                                 "\n" + "C to show the player-list" + "\n" +
-                                 "otherwise press D to quit the data-tool"))
+        choice = str.upper(input("\n" + "Enter" + "\n" +
+                                 "A) to create a football-player" + "\n" +
+                                 "B) to create a basketball-player," + "\n" +
+                                 "C) to show the player-list" + "\n" +
+                                 "D) to quit the data-tool"))
 
         if choice == "A":
 
@@ -30,10 +32,9 @@ if __name__ == '__main__':
                                              red_cards=int(red_cards))
 
             try:
-                with open("player.txt", "w") as file:
-                    file.write(str(football_player.__dict__))
+               football_player.save_into_football_list()
             except Exception:
-                print("player.txt doesn't exist!")
+                print("footballplayer.txt doesn't exist!")
 
         elif choice == "B":
 
@@ -54,15 +55,31 @@ if __name__ == '__main__':
                                                  assists=int(assists))
 
             try:
-                with open("player.txt", "w") as file:
-                    file.write(str(basketball_player.__dict__))
+                basketball_player.save_into_basketball_list()
             except Exception:
-                print("player.txt doesn't exist!")
+                print("basketballplayer.txt doesn't exist!")
 
         elif choice == "C":
-            print_playerlist()
+            print("Enter your choice below: " + "\n" +
+                  "F) to show football-players" + "\n" +
+                  "B) to show basketball-players" + "\n" +
+                  "FB) to show both together")
+            selection = str.upper(input(" "))
+
+            if selection == "F":
+                print_playerlist_f()
+
+            elif selection == "B":
+                print_playerlist_b()
+
+            elif selection == "FB":
+                print_playerlist_f()
+                print_playerlist_b()
+
+            else:
+                print("Please choose a valid display-option: F,B,FB")
 
         elif choice == "D":
             break
         else:
-            print("\n" "Please enter a valid Choice (A/B)!" "\n")
+            print("\n" "Please enter a valid Choice (A/B/C/D)!" "\n")
